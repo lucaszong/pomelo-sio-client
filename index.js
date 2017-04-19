@@ -1,1 +1,1 @@
-module.exports = require('./lib/pomelo-client.js');
+module.exports = require('./lib/pomelo-sio-client.js');
