@@ -1,5 +1,5 @@
 # pomelo client
-pomeol client，基于socket.io-client
+pomeol client，base socket.io-client
 
 ## Getting Start
 
@@ -28,14 +28,15 @@ pomeloclient.on("error", function (err) {
 
 ```
 
+### API
 
-
-### pomelo(opts:Object)
-
-  opts.debug:true/false  console.log
+#### new pomelo(options:Object)
+  - `options` _(Object)_
+    - `debug` _(Boolean)_ console log
   
-### init(opts:Object,cb:Function)
+#### init(options:Object,cb:Function)
 
-  opts.host: host name
-  opts.port: port
-  opts.reconnectionAttempts: (Number) number of reconnection attempts before giving up (Infinity)
+   - `options` _(Object)_
+    - `host` _(String)_ host
+    - `port` _(Number)_ port
+    - `reconnectionAttempts` _(Number)_ number of reconnection attempts before giving up (Infinity)
