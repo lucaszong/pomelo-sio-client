@@ -1,6 +1,6 @@
 {
   "name": "pomelo-sio-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pomelo client, base socket.io-client",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,9 @@
     "client",
     "socket.io"
   ],
+  "dependencies": {
+    "socket.io-client": ">=0.0.1"
+  },
   "author": "lucaszong",
   "license": "MIT",
   "bugs": {
