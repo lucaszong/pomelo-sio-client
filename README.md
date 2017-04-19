@@ -34,9 +34,9 @@ pomeloclient.on("error", function (err) {
   - `options` _(Object)_
     - `debug` _(Boolean)_ console log
   
-#### init(options:Object,cb:Function)
+#### pomelo.init(options:Object,cb:Function)
 
-   - `options` _(Object)_
+  - `options` _(Object)_
     - `host` _(String)_ host
     - `port` _(Number)_ port
     - `reconnectionAttempts` _(Number)_ number of reconnection attempts before giving up (Infinity)
