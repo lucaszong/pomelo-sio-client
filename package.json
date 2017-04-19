@@ -1,5 +1,5 @@
 {
-  "name": "pomelo-client",
+  "name": "pomelo-sio-client",
   "version": "0.0.1",
   "description": "pomelo client, base socket.io-client",
   "main": "app.js",
