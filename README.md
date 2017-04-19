@@ -4,7 +4,7 @@ pomeol client，base socket.io-client
 ## Getting Start
 
 ```
-npm install 
+npm install pomelo-sio-client
 ```
 
 ## Scripts
