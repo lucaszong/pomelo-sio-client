@@ -7,7 +7,7 @@ pomeol client，base socket.io-client
 npm install 
 ```
 
-## scripts
+## Scripts
 
 ```
 var pomelo = require('pomelo-client');
