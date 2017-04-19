@@ -1,4 +1,4 @@
-# pomelo client
+# Pomelo sio client
 pomeol client，base socket.io-client
 
 ## Getting Start
@@ -10,7 +10,7 @@ npm install
 ## Scripts
 
 ```
-var pomelo = require('pomelo-client');
+var pomelo = require('pomelo-sio-client');
 var pomeloclient = new pomelo({"debug":true});
 pomeloclient.init({ "host": host, "port": port,"reconnectionAttempts":3 }, function (socket) {
         pomeloclient.request("chat.userHandler.addUser", args,
