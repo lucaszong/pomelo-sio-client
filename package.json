@@ -1,6 +1,6 @@
 {
   "name": "pomelo-sio-client",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "pomelo client, base socket.io-client",
   "main": "index.js",
   "scripts": {
